@@ -1,0 +1,111 @@
+/* 480 - 320px */
+
+@media(max-width:480px){
+    /* header */
+    header{
+        padding-inline: 20px;
+    }
+
+    /* section1 */
+    .section1{
+        height: 304px;
+        padding-block: 92px;
+    }
+    .shop_section{
+        row-gap: 40px;
+    }
+    .section_header{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* section3 */
+    .section2{
+        padding-inline: 20px;
+    }
+
+    .section2_header{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* footer */
+
+    footer{
+    padding-block: 30px;
+    }
+    /* artworks_page */
+
+    .card_section{
+        padding: 64px 24px;
+        gap: 48px;
+    }
+
+    .shop_all{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .btn_txt{
+        display: none;
+    }
+    .none480{
+        display: none;
+    }
+
+    /* contact_page */
+    .input_section{
+        flex-direction: column;
+        row-gap: 36px;
+    }
+}
+
+
+@media(max-width:320px){
+    /* header */
+    header{
+        padding-inline: 8px;
+    }
+    /* section1 */
+    .section1{
+        padding-block: 96px;
+    }
+
+    .shop_section{
+        row-gap: 32px;
+    }
+
+    /* section3 */
+    .section2{
+        padding: 48px 8px;
+    }
+
+    .section2_header{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card_section{
+        padding: 48px 8px;
+        gap: 32px;
+    }
+
+    /* contact_page */
+    .contact_main{
+        padding-inline: 8px;
+    }
+    .form_section_header{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .form{
+        row-gap: 24px;
+    }
+
+    .input_section{
+       row-gap: 24px;
+    }
+
+}

@@ -1,0 +1,112 @@
+/* 768 - 481px */
+
+@media(max-width:744px){
+    /* header */
+
+    header{
+        padding-inline: 24px;
+    }
+    .header_nav{
+        position: fixed;
+        top: 96px;
+        left: -100%;
+        background-color: #B53B1B;
+        width: 240px;
+        height: 260px;
+        padding: 34px 129px 112px 34px;
+        transition: 0.3s ease;
+    }
+    .header_ul{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .sign_text{
+        display: none;
+    }
+    .sign_icon{
+        display: block;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .show{
+        left: 0;
+    }
+
+    /* section1 */
+    .section1{
+        padding-block: 220px;
+    }
+    .shop_section{
+        row-gap: 32px;
+    }
+
+    .section_header{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* section3 */
+    .section2{
+    padding: 64px 24px;
+}
+
+
+/* footer */
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 32px;
+}
+
+.footer_ul{
+    align-items: center;
+}
+.footer_contact_ul{
+    flex-direction: row;
+}
+
+.contact_p{
+    display: none;
+}
+    
+/* artworks_page */
+
+.card_section{
+    padding-inline: 24px;
+}
+
+.none744{
+    display: none;
+}
+
+/* contact_page */
+.contact_main{
+    padding: 64px 24px;
+}
+
+
+.form_section_header{
+    font-size: 32px;
+    line-height: 39px;
+
+}
+.contact_info{
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.map_section{
+    gap: 24px;
+}
+
+.btn_section{
+    column-gap: 42px;
+}
+
+
+}

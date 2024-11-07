@@ -1,0 +1,52 @@
+/* 1439 - 769px */
+@media(max-width:1180px){
+    /* header */
+    header{
+        padding: 16px 32px;
+    }
+
+    .header_logo_a{
+        flex-direction:column
+    }
+    .header_logo1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .header_logo2{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+    }
+    /* section2 */
+
+    .cards_section{
+        overflow-x: scroll;
+    }
+    .product_card{
+        flex-shrink: 0;
+        width: 282px;
+    }
+    /* footer */
+    footer{
+        background: #402101;
+        padding-inline: 32px;
+    }
+    
+    /* artworks_page */
+
+    .card_section{
+        padding-inline: 32px;
+    }
+
+    .none1189{
+        display: none;
+    }
+
+    /* contact_page */
+    .contact_main{
+        padding-inline: 32px;
+    }
+
+
+}
